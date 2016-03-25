@@ -3,13 +3,19 @@
 <head> 
 	<title>LED Strip Lights</title>
 	<meta charset="utf-8" /><!--use spaces before slashes-->
-    <meta name ="viewpoint" content="width = deivce-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
     <link rel="stylesheet" type="text/css" href="project2.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="slippry.min.js"></script>
+		<link rel="stylesheet" href="demo.css">
+    	<link rel="stylesheet" href="slippry.css">
+
 </head>
 <body>
 	<div class="container">
@@ -17,33 +23,46 @@
 			<div class="logo">
 				<h1 id="logo">LED Light Strips</h1>
 			</div>
-		    <h1>Do you like parties, but you aren't in the mood to leave your room?</h1>
-		    <h3> Well now you can bring the party to your room! With LED Light Strips.</h3>
-		    <div id="slideshow">
-				<div>
-				    <img src="https://i.ytimg.com/vi/APZSV9yMt4Y/maxresdefault.jpg" />
-				</div>
-			   	<div>
-			    	<img src="https://i.ytimg.com/vi/aXL6l0JttTQ/hqdefault.jpg" />
-			   	</div>
-			  	<div>
-			    	<img src="http://www.avsforum.com/content/type/61/id/213209/flags/LL" />
-			   	</div>
-			   	<div>
-			     	<img src="http://ww1.prweb.com/prfiles/2015/09/25/12984626/strip%20light%20kit.jpg" />
-			   	</div>
-			   	<div>
-			     	<img src="http://www.trurons.com/store/light-strip-tv-back.jpg" />
-			   	</div>
-			   	<div>
-			     	<img src="http://detailedled.com/wp-content/uploads/2013/10/indoor-light-bedroom-light-led-lighting-room-lights-kitchen-light-christmas-lights-bathroom-light-stair-light-wonderful-led-light-strips-bq-led-light-strips-in-roomled-light-strips-in-carled-l.jpg" />
-			   	</div>
-			   	<div>
-			     	<img src="https://i.ytimg.com/vi/L3n-9HrInMY/hqdefault.jpg" />
-			   	</div>
-   			</div>
+			<hr>
+		    <h1 id="catch">Do you like parties, but you aren't in the mood to leave your room?</h1>
+		    <h3 id="answer"> Well now you can bring the party to your room!</h3>
+			<div class = slideshow>
+			<section class="slide_wrapper">
+						<article class="slide_block">
+						<ul id="slideshow">
+							<li><a href="#slide1"><img src="https://i.ytimg.com/vi/APZSV9yMt4Y/maxresdefault.jpg"></a></li>
+							<li><a href="#slide2"><img src="http://maxcdn.fooyoh.com/files/attach/images/631/938/172/010/design_unusual_lighting.jpg"></a></li>
+							<li><a href="#slide3"><img src="http://www.avsforum.com/content/type/61/id/213209/flags/LL"></a></li>
+							<li><a href="#slide4"><img src="https://d114hh0cykhyb0.cloudfront.net/images/uploads/LED-Basement-Game-Room-Den-Accent-Creative-Lighting.jpg"></a></li>
+							<li><a href="#slide5"><img src="http://feroled.com/wp-content/uploads/2013/09/patio-lighting.jpg"></a></li>
+							<li><a href="#slide6"><img src="http://detailedled.com/wp-content/uploads/2013/10/indoor-light-bedroom-light-led-lighting-room-lights-kitchen-light-christmas-lights-bathroom-light-stair-light-wonderful-led-light-strips-bq-led-light-strips-in-roomled-light-strips-in-carled-l.jpg"></a></li>
+							<li><a href="#slide7"><img src="https://i.ytimg.com/vi/kPhdPEmnKE0/maxresdefault.jpg"></a></li>
+							<li><a href="#slide8"><img src="http://www.wayjun.com/images/STRIP-3528N.jpg"></a></li>
+							<li><a href="#slide9"><img src="https://www.superbrightleds.com/images/gallery/home/general/basement4.jpg"></a></li>
+						</ul>
+						</article>
+					</section>		
+			</div>
 		    <div id = "description">
 		    	<p class="blue">These light strips can turn your boring room into a rave in a matter of seconds! The LED light strips are remote controlled and change color! They are also eco friendly! All for the cheap cost of $29.99 (Shipping and handling not included)!</p>
+		    	<hr>
+		    <h3>LED Light Specifications</h3>
+		    <ul>
+		    	<li>First quality, no cheap component substitutes</li>
+		    	<li>Cuttable every three LEDs</li>
+		    	<li>Dimensions: 10 mm wide by 0.2 cm tall</li>
+		    	<li>Produces 60 lumens per watt light output.</li>
+		    	<li>Wavelength: Red 623nM; Amber 589nM; Blue 465nM; Green 523nM</li>
+		    	<li>Color Temperature: Daylight White 5500-6500K; Warm White 3000-3200K;</li>
+		    	<li>View Angle: 120 degrees</li>
+		    	<li>Working Voltage: 12VDC.</li>
+		    	<li>Optimum Working Temperature: -10° to 50 ° C (14° to 122° F)</li>
+		    	<li>Sold in 3' sections or by the full reel (5 meters or ~ 16 feet)</li>
+		    	<li>Full reels are 5 meters long, ~ 16'</li>
+		    	<li>One connector is supplied with each cut piece. One connector is supplied with each full reel. These may be factory attached connectors at reel ends, or one of ours.</li>
+		    	<li>Comes with remote control.</li>
+
+		    </ul>
 		    <input type="button" id="buy"value="Buy Now!" />
 		    </div>	
 		    <hr>
@@ -68,18 +87,20 @@
 		    </div>
 		   </div>
 	</div>
-</body>
-<script> 
-$("#slideshow > div:gt(0)").hide();
-setInterval(function() { 
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-},  3000);
 
+
+<script> 
+$(function() {
+				var demo1 = $("#slideshow").slippry({
+					// transition: 'fade',
+					// useCSS: true,
+					// speed: 1000,
+					// pause: 3000,
+					// auto: true,
+					// preload: 'visible',
+					// autoHover: false
+				});
+			});
 $(document).ready(function(){
     $("#buy").click(function(){
         $("#form").slideDown("slow");
@@ -105,4 +126,5 @@ alert("Fill in the Credit Card Expiration Date section");
 }
 });
 </script>
+</body>
 </html>
